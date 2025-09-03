@@ -1,0 +1,11 @@
+[workspace]
+authors = ["AntaoA <amoryantao@net-c.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "demo-pixi"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+seqtk = ">=1.5,<2"
